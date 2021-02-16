@@ -1,0 +1,329 @@
+
+*{
+    margin: 0px;
+}
+
+#body-header{
+    height: 65vh;
+    background-image: url(img/laptop.jpg);
+    opacity:0.8;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.text-center{
+    text-align:center;
+}
+
+
+.horizontal-list{
+    padding:0px;
+    list-style: none;
+    
+}
+
+.nav-menu li a:hover{
+    border-bottom: 1px solid white;
+    font-size: 1.5rem;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin:15px;
+    text-transform: capitalize;
+    
+}
+.horizontal-list li a{
+    text-decoration: none;
+    color:black;
+    opacity: 0.7;
+}
+.horizontal-list li a:hover{
+    color:black;
+ 
+    opacity: 1;
+   
+}
+
+#name{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+   font-size: 3.5rem;
+   font-weight: 700;
+   margin-bottom: 0.5rem;
+   letter-spacing: 0.1rem;
+}
+
+.social-icon li a i{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+.social-icon li a i:hover{
+    
+    box-shadow: 0px 0px 6px 4px  #000 ;
+    opacity: 0.3;
+   
+}
+
+#about{
+    position: relative;
+    height:auto;
+}
+#my-image {
+    width: 15rem;
+    height:15rem;
+   
+   
+    position: relative;
+    top:-8rem;
+    margin:auto;
+   
+    
+}
+
+#my-image img{
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 6px 4px grey;
+}
+
+#bio{
+    background-color: justify;
+    text-align: justify;
+    margin:auto;
+    color: grey;
+    width:75%;
+    font-size: 1.5rem;
+    margin-top: -50px;
+    
+   
+}
+section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-child(2n){
+    background-color: rgb(224, 209, 209);
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+
+.section-title{
+    display: flex;
+    height:auto;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.section-icon{
+    
+    font-size: 2rem;
+    color:darkblue;
+    
+    text-transform: capitalize;
+    
+    padding:0.5rem;
+}
+#skill-div{
+    width:60%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+
+
+.skill-box{
+    height:2rem;
+    width:10rem;
+    margin-right: 25px;
+    border:2 px solid white;
+    border-radius: 50px 50px 50px 50px;
+
+    box-shadow: 0px 0px 10px 2px grey;
+    margin-bottom: 75px;
+    
+}
+.skill-box span{
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+    color:white;
+    text-transform: uppercase;
+}
+
+#html{
+    background-image: linear-gradient(to right,rgb(255, 72, 0) 80% ,rgb(148, 139, 139) 20%);
+}
+#android{
+    background-image: linear-gradient(to right,green 60%,grey 40%);
+}
+#java{
+    background-image: linear-gradient(to right,purple 80%,grey 20%);
+}
+#css{
+    background-image: linear-gradient(to right,rgb(7, 34, 85) 60%,grey 40%);
+}
+#python{
+    background-image: linear-gradient(to right,rgb(255, 0, 212) 30%,grey 70%);
+}
+#javascript{
+    background-image: linear-gradient(to right,orange 80%,grey 20%);
+}
+
+
+/* ***************** Education ********************************* */
+
+
+.education-box{
+     
+    width:33%;
+    height:25%;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.education-title {
+    color:blue;
+    font-size: 2rem;
+    text-align: end;
+}
+
+.education-place{
+    color:orangered;
+    font-size: 1.2rem;
+    text-align: end;
+}
+.education-year{
+    color:grey;
+    font-size:1.2rem;
+    text-align: end;
+}
+.education-para{
+    color:grey;
+    
+}
+.education-box:nth-child(2n){
+    margin-left:53%;
+    text-align: left;
+    
+    
+}
+
+
+
+/* *****************************  Portfolio*************************** */
+
+
+
+#projects{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    height:50%;
+}
+
+.project-div{
+    
+    width:30%;
+    height:16rem;
+    margin: 1rem;
+
+}
+
+.project-image{
+    object-fit :fill;
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+
+
+/*********************** ************************Contact section **********************************************/
+
+#contact{
+    background-image:linear-gradient(to top right,rgb(3, 3, 100)  ,rgb(75, 7, 75)) ;
+}
+
+.form-input {
+   
+    display: block;
+    height: 1.5rem;
+    width: 75%;
+    margin:auto;
+    margin-bottom: 3rem;
+    border:none;
+  
+   padding-bottom:10px;
+   background-color:transparent;
+    border-bottom: 2px solid white;
+}
+
+#contact .section-title .section-icon{
+    color: white;
+    margin-bottom: 2rem;
+}
+#submit-btn{
+    width: 25%;
+    height :2.5rem;
+    margin: auto;
+    display: block;
+    background-color:transparent;
+    border: 2px solid white;
+    color:white;
+    
+}
+
+
+.form-input::placeholder{
+    color: white;
+} 
+#contact-form{
+    width: 100%;
+    margin:auto;
+   
+}
+
+#address{
+    color:white;
+}
+#address p{
+    padding-left:1rem;
+    width:80%;
+}
+#address ul li{
+   list-style: none;
+   margin-left:-1.5rem;
+   padding-bottom:2rem;
+}
+#contact-main{
+    display: flex;
+    
+    justify-content:space-around ;
+}
+
+.address-tile{
+    font-size: 1.6rem;
+    padding:1rem;
+}
+
